@@ -11,4 +11,8 @@ public class Question72 {
         this.string = string;
     }
 
+    Question72(String str) {
+        string = str;
+    }
+
 }

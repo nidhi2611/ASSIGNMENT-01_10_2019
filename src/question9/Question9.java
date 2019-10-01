@@ -7,5 +7,6 @@ public class Question9 {
         Scanner sc = new Scanner(System.in);
         String string = sc.next();
         Question91 obj = new Question91(string);
+        System.out.print(obj.absolute_weight());
     }
 }

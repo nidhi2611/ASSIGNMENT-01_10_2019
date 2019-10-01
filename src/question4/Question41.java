@@ -7,7 +7,7 @@ public class Question41 {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the string");
         String string = sc.next();
-        Question42 obj = new Question 42 (string);
+        Question42 obj = new Question42(string);
         obj.output();
 
     }

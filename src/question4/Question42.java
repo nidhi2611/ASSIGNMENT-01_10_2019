@@ -16,18 +16,19 @@ public class Question42 {
         this.string = string;
     }
 
-    public void ouput() {
+    public void output() {
         int counter = 0;
         for (int i = 0; i < vowel.length(); i++) {
+            counter = 0;
             for (int j = 0; j < string.length(); j++) {
                 if (vowel.charAt(i) == string.charAt(j)) {
                     counter = counter + 1;
                     if (counter % 3 == 0) {
-                        string = string.replace(string.charAt(i), '!');
+                        string = string.replace(string.charAt(j), '!');
                     } else if (counter % 2 == 0) {
-                        string = string.replace(string.charAt(i), '^');
+                        string = string.replace(string.charAt(j), '^');
                     } else {
-                        string = string.replace(string.charAt(i), '*');
+                        string = string.replace(string.charAt(j), '*');
                     }
                 }
             }

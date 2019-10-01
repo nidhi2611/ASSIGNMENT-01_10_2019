@@ -8,7 +8,7 @@ public class Question111 {
         String string = sc.next();
         char ch = sc.next().trim().charAt(0);
         Question112 obj = new Question112(string, ch);
-
+        obj.output();
 
     }
 }

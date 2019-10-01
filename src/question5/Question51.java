@@ -7,6 +7,6 @@ public class Question51 {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         Question52 obj = new Question52(str);
-
+        System.out.print(obj.output());
     }
 }

@@ -15,4 +15,11 @@ public class Question72 {
         string = str;
     }
 
+    public int weight() {
+        int k = 0;
+        for (int i = 0; i < string.length(); i++) {
+            k = k + (int) (string.charAt(i));
+        }
+        return k;
+    }
 }

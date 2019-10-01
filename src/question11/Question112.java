@@ -26,6 +26,11 @@ public class Question112 {
     }
 
     public void output() {
+        for (int i = 0; i < string.length(); i++) {
+            if (string.charAt(i) == ch) {
+                System.out.println(i);
+            }
 
+        }
     }
 }

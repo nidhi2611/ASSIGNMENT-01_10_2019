@@ -20,11 +20,13 @@ public class Question32 {
         for (int i = 0; i < vowel.length(); i++) {
             for (int j = 0; j < string.length(); j++) {
                 if (vowel.charAt(i) == string.charAt(j)) {
-                    string = string.replace(string.charAt(i), *);
+                    string = string.replace(string.charAt(j), '*');
+
                 }
             }
 
         }
+        System.out.print(string);
 
     }
 

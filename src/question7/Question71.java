@@ -7,7 +7,7 @@ public class Question71 {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         Question72 obj = new Question72(str);
-
+        System.out.print(obj.weight());
 
 
     }

@@ -8,6 +8,6 @@ public class Question21 {
         String string = sc.next();
         int index = sc.nextInt();
         Question22 obj = new Question22(string, index);
-
+        System.out.println(obj.output());
     }
 }
